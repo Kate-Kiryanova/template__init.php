@@ -127,7 +127,6 @@ class CustomHandlers
 				if ($stUrlPrev) $stUrls = '<link rel="prev" href="' . $stUrlPrev . '" />' . " ";
 				if ($stUrlNext) $stUrls .= '<link rel="next" href="' . $stUrlNext . '" />';
 				$content = $stBeforehead . "<head>" . $headPage . $stUrls . "</head>" . $stAfterhead;
-				//AddMessage2Log($content);
 
 				// при пагинации добавление в <title> куска " Страница - n"
 				if ($nCurrentPage != 1) {
